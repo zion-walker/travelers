@@ -35,7 +35,7 @@ I will be determining the memorability of specific mascot videos by comparing th
 >  False = Miss, Incorrect rejection, Correct rejection, False Alarm
 * **Determine the total number of responses for each video in a new column** 
 ```
-hit['resp_type_total'] = hit.groupby('video_context')['response_type'].transform('sum')
+hit['resp_type_total'] = hit.groupby('video_context')['response_count'].transform('sum')
 ```
 * **Calculate the “Hit Rate” per mascot video in a new column** 
 > * divide total Hit across participants by total number of responses
