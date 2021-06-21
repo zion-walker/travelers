@@ -21,12 +21,16 @@ I will be determining the memorability of specific mascot videos by comparing th
 ## Step-by-Step Guide to Respresenting Mascot Memorability
 
 * import necessary packages (Pandas, Numpy, Matplotlib, Seaborn)
-* Load the Dataset into Pandas
+* Load/Read the Datafile
 * Clean the Dataset
-* Create a new variable with columns only relevant to recognition phase
-* Create a new variable indexed by video with participant response as column
-* Determine whether response is a Hit or False Alarm
-* create an empty column
+* **Create a DataFrame indexed by video with Hit Rate as column**
+> * Isolate columns relevant to Recognition Phase
+```
+["phase_id", "mascot_name", "video_context", "Response", 'stim_type']
+```
+> * Isolate all responses where "phase_id" is equal to "recog_random" and "recog_ordered"
+> * Determine whether response is a Hit or False Alarm
+>> * In new column, 
 * when studied and sure/maybe/guess old, = HIT in a new column
 * when lure and sure/maybe/guess new, = HIT in a new column
 * when studied and sure/maybe/guess new, = False alarm in a new column
