@@ -20,29 +20,24 @@ I will be determining the memorability of specific mascot videos by comparing th
 
 ## Step-by-Step Guide to Respresenting Mascot Memorability
 
-* import necessary packages (Pandas, Numpy, Matplotlib, Seaborn)
-* Load/Read the Datafile
-* Clean the Dataset
-* **Create a DataFrame indexed by video with Hit Rate as column**
-> * Isolate columns relevant to Recognition Phase
+> * import necessary packages (Pandas, Numpy, Matplotlib, Seaborn)
+> * Load/Read Datafile
+> * Clean Dataset
+* **In Cleaned Dataset, Isolate columns relevant to Recognition Phase**
 ```
 ["phase_id", "mascot_name", "video_context", "Response", 'stim_type']
 ```
 > * Isolate all responses where "phase_id" is equal to "recog_random" and "recog_ordered"
-> * Determine whether response is a Hit or False Alarm
->> * In new column, 
-* when studied and sure/maybe/guess old, = HIT in a new column
-* when lure and sure/maybe/guess new, = HIT in a new column
-* when studied and sure/maybe/guess new, = False alarm in a new column
-* when lure and sure/maybe/guess old, = False alarm in a new column
-* alternatively, could this become a boolean mask where TRUE = hit?
+* **Determine whether response is a Hit or Other Response**
+> * when studied and sure/maybe/guess old, = Hit
+> * Create a Boolean mask in a new column True = Hit
+> * Rename items in Boolean Column so that TRUE = Hit False = Miss, Incorrect rejection, Correct rejection, False Alarm
+* **Determine the total number of responses for each video in a new column** 
+> * Calculate the “Hit Rate” per mascot video in a new column by dividing total Hit across participants by total number of responses
+* **Create a DataFrame indexed by Mascot Video with Hit Rate as column**
+> * Visualize this data in a bar graph
 
-Create a function that will repeat this for all mascot videos
-Calculate the “Hit Rate” per mascot video, make it its own series.
-determine the number of participant responses per mascot video
-divide total Hit by total number of responses
 Create a new df indexed by mascot video w/ columns: HR, phase_id, mascot
-Visualize this data in a graph... bar graph?
 Calculate the average HR per mascot
 Create a new series w/ mascot and respective avg. HR
 Visualize this data graphically... again by bar graph?
