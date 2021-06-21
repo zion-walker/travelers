@@ -1,20 +1,18 @@
 
-# Travelers 🏝️ <img alt="Python" src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white"><img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white" />
+# 🏖️ Travelers 🏝️ 
 
-*are mascots that travel often more memorable than others?* 🌴
+In this study, some mascots are encountered doing new actions in different locations each trial (ex. sleeping in a house vs. running on a baseball field vs. catching a train) whereas other mascots videos are very similar across trials (ex. doing different actions in the same shopping mall)
+
+*are mascots that travel often more memorable than others?* 
 
 This sub-analysis aims to address whether memory retrieval is influenced by the uniqueness of episodic events. 
-
-If your friend wears a new vibrant outfit every morning you get coffee together, you may remember those coffee dates more than coffee with your friend that always wears grey. 
-
-In this study, some mascots are encountered doing new actions in different locations each trial, whereas other mascots videos are very similar across trials. 
-
 
 ### Overarching Study Description: What is seqlearn?  
 The present study lead by Dr. Halle Dimsdale-Zucker aims to test whether statistical structure imposed at encoding and reinstated at retrieval can serve as a context to guide memory. We hypothesize that statistical structure facilitates learning, and maintaining statistical regularities at retrieval improves memory performance.
 
-
 I will be determining the memorability of specific mascot videos by comparing the rates of correctly identifying studied videos as “old” vs. incorrectly judging unstudied videos as “old” across participants.
+
+<img alt="Python" src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white"><img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white" />
 
 ## Step-by-Step Guide to Respresenting Mascot Memorability
 
