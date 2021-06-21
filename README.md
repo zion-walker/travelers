@@ -5,7 +5,7 @@ In this study, some mascots are encountered doing new actions in different locat
 
 *are mascots that travel often more memorable than others?* 
 
-<img width="168" alt="image" src="https://user-images.githubusercontent.com/74158727/122773942-c7809a00-d276-11eb-9214-771cfc47fccf.png"><img width="169" alt="image" src="https://user-images.githubusercontent.com/74158727/122774004-d2d3c580-d276-11eb-8eec-6f8fd255ba24.png">
+<img width="168" alt="image" src="https://user-images.githubusercontent.com/74158727/122773942-c7809a00-d276-11eb-9214-771cfc47fccf.png"><img width="169" alt="image" src="https://user-images.githubusercontent.com/74158727/122774004-d2d3c580-d276-11eb-8eec-6f8fd255ba24.png"><img width="169" alt="image" src="https://user-images.githubusercontent.com/74158727/122774296-10385300-d277-11eb-8204-da4454d3852a.png"><img width="168" alt="image" src="https://user-images.githubusercontent.com/74158727/122774404-25ad7d00-d277-11eb-8c94-5a8fe420cdb7.png">
 
 This sub-analysis aims to address whether memory retrieval is influenced by the uniqueness of episodic events. 
 
