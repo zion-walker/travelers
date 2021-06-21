@@ -3,7 +3,6 @@
 <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white" />
 
 # Travelers 
-***
 *are mascots that travel often more memorable than others?*
 
 This sub-analysis aims to address whether memory retrieval is influenced by the uniqueness of episodic events. 
