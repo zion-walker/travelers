@@ -31,9 +31,10 @@ I will be determining the memorability of specific mascot videos by comparing th
 * **Determine whether response is a Hit or Other Response**
 > * when studied and sure/maybe/guess old, = Hit
 > * Create a Boolean mask in a new column True = Hit
-> * Rename items in Boolean Column so that TRUE = Hit False = Miss, Incorrect rejection, Correct rejection, False Alarm
+> * Rename items in Boolean Column so that TRUE = Hit,
+>  False = Miss, Incorrect rejection, Correct rejection, False Alarm
 * **Determine the total number of responses for each video in a new column** 
-> * Calculate the “Hit Rate” per mascot video in a new column by dividing total Hit across participants by total number of responses
+* **Calculate the “Hit Rate” per mascot video in a new column by dividing total Hit across participants by total number of responses**
 * **Create a DataFrame indexed by Mascot Video with Hit Rate as column**
 > * Visualize this data in a bar graph
 
