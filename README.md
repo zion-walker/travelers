@@ -32,8 +32,9 @@ I will be determining the memorability of specific mascot videos by comparing th
 > * when studied and sure/maybe/guess old, = Hit
 > * Create a Boolean mask in a new column True = Hit
 ```
-recog_test_data = pd.DataFrame(clean_data_recog, columns = ['Response', 'stim_type', 'video_context', 'response_type'])
-recog_test_data['response_type'] = np.where((recog_test_data['stim_type'] == 'studied') & ((recog_test_data['Response'] == 'sure old') | (recog_test_data['Response'] == 'maybe old') | (recog_test_data['Response'] == 'guess old')), True, False)
+np.where((recog_test_data['stim_type'] == 'studied') & 
+((recog_test_data['Response'] == 'sure old') | (recog_test_data['Response'] == 
+'maybe old') | (recog_test_data['Response'] == 'guess old')), True, False)
 
 ```
 > * Rename items in Boolean Column so that TRUE = Hit,
