@@ -7,6 +7,9 @@ In this study, some mascots are encountered doing new actions in different locat
 
 <img width="168" alt="image" src="https://user-images.githubusercontent.com/74158727/122773942-c7809a00-d276-11eb-9214-771cfc47fccf.png"><img width="169" alt="image" src="https://user-images.githubusercontent.com/74158727/122774004-d2d3c580-d276-11eb-8eec-6f8fd255ba24.png"><img width="169" alt="image" src="https://user-images.githubusercontent.com/74158727/122774296-10385300-d277-11eb-8204-da4454d3852a.png"><img width="168" alt="image" src="https://user-images.githubusercontent.com/74158727/122774404-25ad7d00-d277-11eb-8c94-5a8fe420cdb7.png">
 
+<img width="168" alt="image" src="https://user-images.githubusercontent.com/74158727/122775285-f8150380-d277-11eb-9f00-1beaccf4e430.png">
+<img width="168" alt="image" src="https://user-images.githubusercontent.com/74158727/122775324-02370200-d278-11eb-99c6-57cc9ea41254.png">
+
 This sub-analysis aims to address whether memory retrieval is influenced by the uniqueness of episodic events. 
 
 ### Overarching Study Description: What is seqlearn?  
