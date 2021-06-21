@@ -1,7 +1,7 @@
 
 # 🏖️ Travelers 🏝️ 
 
-In this study, some mascots are encountered doing new actions in different locations each trial (ex. swaving in classroom vs. running on a baseball field vs. watching fireworks) whereas other mascots videos are very similar across trials (ex. doing different actions in the same shopping mall)
+In this study, some mascots are encountered doing new actions in different locations each trial (ex. waving in classroom vs. running on a baseball field vs. watching fireworks) whereas other mascots videos are very similar across trials (ex. doing different actions in the same shopping mall)
 
 *are mascots that travel often more memorable than others?* 
 
