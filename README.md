@@ -1,13 +1,13 @@
 
 # 🏖️ Travelers 🏝️ 
 
-In this study, some mascots are encountered doing new actions in different locations each trial (ex. sleeping in a house vs. running on a baseball field vs. catching a train) whereas other mascots videos are very similar across trials (ex. doing different actions in the same shopping mall)
+In this study, some mascots are encountered doing new actions in different locations each trial (ex. swaving in classroom vs. running on a baseball field vs. watching fireworks) whereas other mascots videos are very similar across trials (ex. doing different actions in the same shopping mall)
 
 *are mascots that travel often more memorable than others?* 
 
-<img width="168" alt="image" src="https://user-images.githubusercontent.com/74158727/122774004-d2d3c580-d276-11eb-8eec-6f8fd255ba24.png"><img width="169" alt="image" src="https://user-images.githubusercontent.com/74158727/122774296-10385300-d277-11eb-8204-da4454d3852a.png"><img width="168" alt="image" src="https://user-images.githubusercontent.com/74158727/122774404-25ad7d00-d277-11eb-8c94-5a8fe420cdb7.png">
-
 <img width="168" alt="image" src="https://user-images.githubusercontent.com/74158727/122775324-02370200-d278-11eb-99c6-57cc9ea41254.png"><img width="168" alt="image" src="https://user-images.githubusercontent.com/74158727/122775518-36122780-d278-11eb-9284-9ff3650efad8.png"><img width="168" alt="image" src="https://user-images.githubusercontent.com/74158727/122775285-f8150380-d277-11eb-9f00-1beaccf4e430.png">
+
+<img width="168" alt="image" src="https://user-images.githubusercontent.com/74158727/122774004-d2d3c580-d276-11eb-8eec-6f8fd255ba24.png"><img width="169" alt="image" src="https://user-images.githubusercontent.com/74158727/122774296-10385300-d277-11eb-8204-da4454d3852a.png"><img width="168" alt="image" src="https://user-images.githubusercontent.com/74158727/122774404-25ad7d00-d277-11eb-8c94-5a8fe420cdb7.png">
 
 This sub-analysis aims to address whether memory retrieval is influenced by the uniqueness of episodic events. 
 
