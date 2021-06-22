@@ -20,33 +20,33 @@ I will be determining the memorability of specific mascot videos by comparing th
 
 ## Step-by-Step Guide to Respresenting Mascot Memorability
 
-> * import necessary packages (Pandas, Numpy, Matplotlib, Seaborn)
-> * Load/Read Datafile
-> * Clean Dataset
-* **In Cleaned Dataset, Isolate columns relevant to Recognition Phase**
+1. import necessary packages (Pandas, Numpy, Matplotlib, Seaborn)
+2. Load/Read Datafile
+3. Clean Dataset
+4. In Cleaned Dataset, Isolate columns relevant to Recognition Phase
 ```
 ["phase_id", "mascot_name", "video_context", "Response", 'stim_type']
 ```
-> * Isolate all responses where "phase_id" is equal to "recog_random" and "recog_ordered"
-* **Determine whether response is a Hit or Other Response**
-> * when studied and sure/maybe/guess old, = Hit
-> * Create a Boolean mask in a new column True = Hit
+5. Isolate all responses where "phase_id" is equal to "recog_random" and "recog_ordered"
+6. Determine whether response is a Hit or Other Response
+7. when studied and sure/maybe/guess old, = Hit
+8. Create a Boolean mask in a new column True = Hit
 ```
 np.where((recog_test_data['stim_type'] == 'studied') & 
 ((recog_test_data['Response'] == 'sure old') | (recog_test_data['Response'] == 
 'maybe old') | (recog_test_data['Response'] == 'guess old')), True, False)
 
 ```
-> * Rename items in Boolean Column so that TRUE = Hit,
->  False = Miss, Incorrect rejection, Correct rejection, False Alarm
-* **Determine the total number of responses for each video in a new column** 
+9. Rename items in Boolean Column so that TRUE = Hit,
+10. False = Miss, Incorrect rejection, Correct rejection, False Alarm
+11. Determine the total number of responses for each video in a new column** 
 ```
 hit['resp_type_total'] = hit.groupby('video_context')['response_count'].transform('sum')
 ```
-* **Calculate the “Hit Rate” per mascot video in a new column** 
-> * divide total Hit across participants by total number of responses
-* **Create a DataFrame indexed by Mascot Video with Hit Rate as column**
-> * Visualize this data in a bar graph
+12. Calculate the “Hit Rate” per mascot video in a new column** 
+13. divide total Hit across participants by total number of responses
+14. Create a DataFrame indexed by Mascot Video with Hit Rate as column**
+15. Visualize this data in a bar graph
 
 Create a new df indexed by mascot video w/ columns: HR, phase_id, mascot
 Calculate the average HR per mascot
