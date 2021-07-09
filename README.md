@@ -16,7 +16,7 @@ The present study lead by Dr. Halle Dimsdale-Zucker aims to test whether statist
 
 I will be determining the memorability of specific mascot videos by comparing the rates of correctly identifying studied videos as “old” vs. incorrectly judging unstudied videos as “old” across participants.
 
-## Step-by-Step Guide to Respresenting Mascot Memorability <img alt="Python" src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white">  <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white" />
+## Step-by-Step Guide to Respresenting Mascot Memorability <img alt="Python" src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white"><img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white" />
 
 1. import necessary packages (Pandas, Numpy, Matplotlib, Seaborn)
 2. Load/Read Datafile
