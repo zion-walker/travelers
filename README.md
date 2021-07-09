@@ -50,7 +50,7 @@ hit['resp_type_total'] = hit.groupby('video_context')['response_count'].transfor
 
 ## Creating a Linear Mixed Effect Model: HR ~ mascot, phase_id
 Linear Mixed Effect Models (LMEM) aim to determine the extent to which data values are influenced by different factors, or 'fixed effects'. In this case we are investigating the following:
-
- _To what extent is the 'hit rate', or memorability of each video determined by the mascot in the video?_
  
  _To what extent is 'hit rate' determined by whether the video is viewed during the ordered vs. random condition?_
+ 
+ _To what extent is the 'hit rate', or memorability of each video determined by the mascot in the video?_
