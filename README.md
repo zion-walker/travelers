@@ -16,9 +16,7 @@ The present study lead by Dr. Halle Dimsdale-Zucker aims to test whether statist
 
 I will be determining the memorability of specific mascot videos by comparing the rates of correctly identifying studied videos as “old” vs. incorrectly judging unstudied videos as “old” across participants.
 
-<img alt="Python" src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white"> <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white" /> <img alt="R" src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white"/>
-
-## Step-by-Step Guide to Respresenting Mascot Memorability
+## Step-by-Step Guide to Respresenting Mascot Memorability <img alt="Python" src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white">  <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white" />
 
 1. import necessary packages (Pandas, Numpy, Matplotlib, Seaborn)
 2. Load/Read Datafile
@@ -48,7 +46,7 @@ hit['resp_type_total'] = hit.groupby('video_context')['response_count'].transfor
 14. Create a DataFrame indexed by Mascot Video with Hit Rate as column
 15. Visualize this data in a bar graph
 
-## Creating a Linear Mixed Effect Model: HR ~ mascot, phase_id
+## Creating a Linear Mixed Effect Model <img alt="R" src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white"/>
 Linear Mixed Effect Models (LMEM) aim to determine the extent to which data values are influenced by different factors, or 'fixed effects'. In this case we are investigating the following:
  
  _To what extent is 'hit rate' determined by whether the video is viewed during the ordered vs. random condition?_
