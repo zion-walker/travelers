@@ -43,13 +43,10 @@ np.where((recog_test_data['stim_type'] == 'studied') &
 ```
 hit['resp_type_total'] = hit.groupby('video_context')['response_count'].transform('sum')
 ```
-12. Calculate the “Hit Rate” per mascot video in a new column** 
+12. Calculate the “Hit Rate” per mascot video in a new column
 13. divide total Hit across participants by total number of responses
-14. Create a DataFrame indexed by Mascot Video with Hit Rate as column**
+14. Create a DataFrame indexed by Mascot Video with Hit Rate as column
 15. Visualize this data in a bar graph
 
-Create a new df indexed by mascot video w/ columns: HR, phase_id, mascot
-Calculate the average HR per mascot
-Create a new series w/ mascot and respective avg. HR
-Visualize this data graphically... again by bar graph?
-Create a Mixed effect model: HR ~ mascot, phase_id
+## Creating a Linear Mixed Effect Model
+HR ~ mascot, phase_id
