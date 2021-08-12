@@ -55,3 +55,9 @@ dist_permut_log_sos_pvals
 
 # Stop the clock
 proc.time() - ptm
+
+hist_perm_sos <- ggplot(dist_permut_log_sos, aes(sos_total_perm))+ 
+  geom_histogram(fill = "purple") +
+  geom_vline(aes(xintercept = 5379.514)) +
+  labs(title="Histogram for Sum of Squares Distribution", x="Sum of Squares", y="Count")
+hist_perm_sos
